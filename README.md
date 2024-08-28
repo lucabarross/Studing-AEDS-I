@@ -59,4 +59,26 @@
      - o primeiro inteiro disponivel no (%d) "buffer"(área de armazenamento) de entrada padrão teclado é armazenado n primeiro endereço indicado, seguindo no segundo e assim por diante.
 
 ## Operadores e Expressões
-1) Aritiméticos.
+1) Aritiméticos: "+" "-" "*" "/" "%"
+   y = x + 3; ----> int x = 15 ----> y = 15 + 3 = 18;
+   y = x / 5; ----> int x = 15 ----> y = 15 / 5 = 3;
+   x = y % 2; ----> int x = 15 ----> y = 15 % 2 = 1;
+- A divisão de inteiros gera como resultado o quociente inteiro se a divisão de reais, o resultado é real.
+- O operador '%' calcula o resto de inteiros.
+
+2) Aritiméticos de Atribuição: '+=' '-=' '*=' '/=' '%=' '++' '--'
+   x += 3 ----> x = x + 3; Mesma Váriavel.
+   x *= 5; ----> x = x * 5;
+   x++; ----> sem o igual, outro-incremento ----> x = x + 1;
+   x--; ----> sem o igual, outro-decremento ----> x = x - 1;
+
+3) Relacionados: '<=' '<' '>=' '>' '==' '!='
+   ( x > 3 );
+   ( x == y + 3); -> O sinal de '==' é de igualdade.
+   ( x != y % 2); -> O sinal de '!=' é de diferença.
+   ( y >= 3 ); 
+- O resultado de uma expressão com comparações sempre é true ou false (bool).
+
+4) Lógicos: &&(e), 11(ou), !(não)
+- No caso de '&&', ambos os termos tem que ser true para o resultado ser true.
+- No caso de '11', se um dos termos for true, o resultado será true.
